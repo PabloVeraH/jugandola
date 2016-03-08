@@ -1,0 +1,196 @@
+
+
+
+
+.machineContainer{
+	background-color: #000;
+	padding: 5px 1px 5px 1px;
+	overflow: hidden;
+	height: 135px;
+}
+.slotMachine{
+	/*
+	width: 32.333333%;
+	border: 5px solid #000;
+	height: 100px;
+	padding: 0px;
+	overflow: hidden;
+	display: inline-block;
+	text-align: center;
+	background-color: #ffffff;*/
+	
+	background-color: #ffffff;
+    border: 2px solid #000;
+    display: inline-block;
+    height: 100px;
+    overflow: hidden;
+    padding: 0;
+    text-align: center;
+    width: 31%;
+}
+.machineResult{
+	color:#fff;
+	text-align:center;
+	font-weight: 900;
+}
+.noBorder{
+	border:none !important;
+	background: transparent !important;
+}
+.slotMachine .slot{
+	height:100px;
+	background-position-x: 55%;
+	background-repeat: no-repeat;
+    background-position: center;
+}
+.slot1{
+	background-image: url("../img/slot1.png");
+}
+.slot2{
+	background-image: url("../img/slot2.png");
+}
+.slot3{
+	background-image: url("../img/slot3.png");
+}
+.slot4{
+	background-image: url("../img/slot4.png");
+}
+.slot5{
+	background-image: url("../img/slot5.png");
+}
+.slot6{
+	background-image: url("../img/slot6.png");
+}
+.slotMachine.slotCenter{
+width: 35.5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#textMachine, #textMachine2{
+	width:520px;
+	height: 67px;
+	overflow: hidden;
+	display: inline-block;
+	text-align: left;
+}
+#textMachine > *, #textMachine2 > *{
+	padding: 0px 0px;
+}
+
+
+
+
+.slotMachineButton{
+	width:100px;
+	height: 100px;
+	overflow: hidden;
+	display: inline-block;
+	text-align: center;
+}
+.slotMachineButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffc477), color-stop(1, #fb9e25) );
+	background:-moz-linear-gradient( center top, #ffc477 5%, #fb9e25 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc477', endColorstr='#fb9e25');
+	background-color:#ffc477;
+	border-radius: 75px;
+	text-indent:0px;
+	border:6px solid #eeb44f;
+	display:inline-block;
+	color:#ffffff;
+	font-size:40px;
+	font-weight:bold;
+	font-style:normal;
+	height:100px;
+	line-height:90px;
+	margin-top:10px;
+	width:100px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #cc9f52;
+	cursor:pointer;
+}
+.slotMachineButton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fb9e25), color-stop(1, #ffc477) );
+	background:-moz-linear-gradient( center top, #fb9e25 5%, #ffc477 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fb9e25', endColorstr='#ffc477');
+	background-color:#fb9e25;
+}.slotMachineButton:active {
+	position:relative;
+	top:1px;
+}
+.slotContainer{
+	left: 21.8%;
+    margin: 0 auto;
+    position: absolute;
+    top: 40%;
+    width: 375px;
+}
+.fondoImgSlot{
+	display: table;
+    margin: 0 auto;
+}
+.slotContainerbtns{
+	
+    margin: 0 auto;
+    position: absolute;
+    top: 65%;
+    width: 100%;
+    left: 0%;
+	}
+
+/*MEDIA QUERIES*/	
+@media all and (max-width: 1400px) {
+	.slotContainer{
+	}
+}
+@media all and (max-width: 1200px) {
+	.slotContainer{
+		left: 15.8%;
+	}
+}
+
+@media all and (max-width: 990px) {
+	.slotContainer{
+		left: 20.8%;
+	}
+	
+}
+@media all and (max-width: 750px) {
+	.slotContainer{
+		left: 25.3%;
+	}
+}
+@media all and (max-width: 680px) {
+	.slotContainer{
+		width: 70%;
+		left: 16%;
+	}
+}
+@media all and (max-width: 460px) {
+
+}
+
+

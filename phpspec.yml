@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: MeLaJuego
+        psr4_prefix: MeLaJuego
+        src_path: app
