@@ -1,3 +1,3 @@
-## Me la Juego - Unilever
+## Jugandola
 
-Este proyecto esta alojado en (Inserte URL aqui)
+Este proyecto debe ser descargado y luego hacer `composer install`
